@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Read all student feedback." />
+    <title>All Feedback | Student Feedback Manager</title>
+    <link rel="stylesheet" href="all-feedback.css" />
+  </head>
+  <body>
+    <header class="site-header"><a class="brand" href="/">Student Feedback</a><nav><a href="/">Share feedback</a><a class="active" href="/all-feedback">All feedback</a></nav></header>
+    <main class="page-shell"><section class="hero"><div><p class="eyebrow">Student Feedback Manager</p><h1>Community notes.</h1><p>See what students are saying, newest reflections first.</p></div><a class="button-link" href="/">Share your feedback ↗</a></section>
+      <section class="feedback-panel" aria-labelledby="feedback-title"><div class="section-heading"><div><p class="eyebrow">02 / Discover</p><h2 id="feedback-title">All feedback</h2></div><span id="feedback-count" class="feedback-count">—</span></div><div id="feedback-list" class="feedback-list" aria-live="polite"><div class="loading-state">Loading reflections...</div></div></section>
+    </main>
+    <footer><span>MongoDB + Express + Mongoose</span><a href="/">← Share feedback</a></footer>
+    <script src="/all-feedback.js"></script>
+  </body>
+</html>
